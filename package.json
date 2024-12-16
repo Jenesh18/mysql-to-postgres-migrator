@@ -1,0 +1,36 @@
+{
+  "name": "mysql-to-postgres-migrator",
+  "version": "1.0.0",
+  "description": "A Node.js package to migrate data from MySQL to PostgreSQL",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "mysql",
+    "postgresql",
+    "postgres",
+    "migration",
+    "database",
+    "data migration"
+  ],
+  "author": "Jenesh Devganiya <jenesh018@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "eslint": "^8.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mysql-to-postgres-migrator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mysql-to-postgres-migrator/issues"
+  },
+  "homepage": "https://github.com/yourusername/mysql-to-postgres-migrator#readme"
+}
